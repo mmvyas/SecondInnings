@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+.compareNew{
+font-family: Arial, Helvetica, sans-serif;
+justify-content: center;
+}
+
+.compareNew h2{
+  padding-left:10px;
+
+}
+
+/* Float four columns side by side */
+.column {
+  padding: 0 10px;
+  padding-bottom: 20px;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.info{
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 150px;
+}
+
+.material-icons{    
+  margin-top:-10px;
+  cursor: pointer;
+}
+
+/* Remove extra left and right margins, due to padding */
+.sampleCardRow {
+  padding-left:10px;
+  margin: 0 -5px;
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 3;
+  /* justify-content: center; */
+}
+
+
+
+/* Clear floats after the columns */
+.sampleCardRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Samplecard h3{
+  font-weight: bold;
+  color: #4c4c4c;
+}
+.Samplecard p{
+  text-align: center;
+  color: #707070;
+}
+
+
+
+/* Style the counter cards */
+.Samplecard {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #49a942;
+  border-top: 3px solid #0a7a38;
+  border-radius: 0px;
+}
+
+.cardWithName h2{
+  padding-left: 10px;
+  min-width: 200px;
+
+}
+
+.cardWithName{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+}
+
+.nameWithIcon{
+  display: flex
+}
+
+.fa-plus-square{
+  font-size: 1.5rem;
+  padding-top: 4px;
+  cursor: pointer;
+  
+}
+.fa-minus-square{
+  font-size: 1.5rem;
+  padding-top: 4px;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+.my-legend .legend-title {
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 90%;
+  
+  }
+.my-legend .legend-scale ul {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  float: left;
+  list-style: none;
+  }
+.my-legend .legend-scale ul li {
+  font-size: 80%;
+  list-style: none;
+  margin-left: 0;
+  line-height: 18px;
+  margin-bottom: 2px;
+  }
+.my-legend ul.legend-labels li span {
+  display: block;
+  float: left;
+  height: 16px;
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 0;
+  border: 1px solid #999;
+  }
+.my-legend .legend-source {
+  font-size: 70%;
+  color: #999;
+  clear: both;
+  }
+.my-legend a {
+  color: #777;
+  }
+
+ /* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+    display: flex;
+    height: 50%;
+    padding-bottom: 2px;
+    padding-top: 2px;
+  }
+
+  .iconGroup{
+    display: none
+  }
+  .Samplecard {
+    padding: 5px;
+  }
+  .Samplecard p{
+    margin: 0px
+  }
+  .sampleCardRow {
+    padding:0px
+  }
+
+  .cardWithName{
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .cardWithName h2{
+    font-size: 120%;
+    padding-left: 5px;
+  }
+
+  .Samplecard h3{
+    font-size: 120%
+  }
+  .info{
+    padding-top: 5px;
+    padding-left: -10px;
+    padding-right: 5px;
+    font-size: 15px;
+  }
+
+  
+
+  
+ 
+}

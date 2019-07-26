@@ -1,0 +1,200 @@
+/* .HorizontalNonLinearAlternativeLabelStepper-root-1{
+    border-radius: 10px;
+    background-color: rgba(20,50,70,0.6);
+    color:white !important;
+} */
+/* .HorizontalNonLinearAlternativeLabelStepper-root-1 span{
+    color:white ;
+} */
+
+
+/* .HorizontalNonLinearAlternativeLabelStepper-root-1 label{
+    color:white ;
+}
+
+.HorizontalNonLinearAlternativeLabelStepper-root-1 p{
+    color:white ;
+} */
+
+/* .MuiPaper-root-10{
+    border-radius: 10px;
+    background-color:transparent !important;
+} */
+
+/* .css-kj6f9i-menu{
+    color: black
+} */
+.selectionForm{
+    height: 180px;
+
+}
+
+.SuggestionForm{
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+.MuiButton-containedPrimary-134{
+    background: #49a942 !important;
+}
+
+.HorizontalNonLinearAlternativeLabelStepper-button-2{
+    margin-left: 30px !important;
+}
+
+.rentBuyButton{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* .MuiStepIcon-root-62.MuiStepIcon-active-64{color: #49a942 !important}
+.MuiStepIcon-root-288.MuiStepIcon-active-290{color: #49a942 !important}
+.MuiStepIcon-root-62.MuiStepIcon-completed-65{
+  color: #49a942 !important;
+
+}
+
+.MuiStepIcon-root-288.MuiStepIcon-completed-291{
+    color: #49a942 !important;
+}
+
+.MuiStepIcon-root-64.MuiStepIcon-completed-67{
+    color: #49a942 !important;
+}
+
+.MuiStepIcon-root-253.MuiStepIcon-active-255{
+    color: #49a942 !important;
+}
+
+.MuiStepIcon-root-253.MuiStepIcon-completed-256{
+    color: #49a942 !important;
+}
+
+.MuiStepIcon-root-64.MuiStepIcon-active-66{
+    color: #49a942 !important;
+}
+
+.MuiButton-root-122.MuiButton-disabled-142 {
+    margin-left: 30px !important;
+}
+
+.MuiButtonBase-root-274.MuiButtonBase-disabled-275 {
+    margin-left: 30px !important;
+}
+
+.HorizontalNonLinearAlternativeLabelStepper-button-228{
+    margin-left: 30px !important;
+}
+
+.HorizontalNonLinearAlternativeLabelStepper-button-192{
+    margin-left: 30px !important;
+}
+
+.MuiStepIcon-root-410.MuiStepIcon-active-412{
+    color: #49a942 !important;
+}
+
+.MuiStepIcon-root-410.MuiStepIcon-completed-413{
+    color: #49a942 !important;
+}
+
+.HorizontalNonLinearAlternativeLabelStepper-button-353{
+    margin-left: 30px !important;
+}
+
+.MuiButton-containedPrimary-328{
+    background-color: #49a942 !important;
+}
+
+.MuiButton-root-316.MuiButton-disabled-336{
+    margin-left: 30px !important;
+}
+
+.MuiButton-root-155.MuiButton-disabled-175{
+    margin-left: 30px !important;
+}
+
+.MuiStepIcon-root-249.MuiStepIcon-active-251{
+    color: #49a942 !important;
+}
+
+.MuiStepIcon-root-249.MuiStepIcon-completed-252 {
+    color: #49a942 !important;
+}
+
+.MuiButton-containedPrimary-167{
+    background-color: #49a942 !important;
+}
+
+.MuiButton-containedPrimary-360{
+    background-color: #49a942 !important;
+    
+}
+.css-1pcexqc-container{
+    width: 350px !important;
+    margin-left: 30px;
+} */
+
+.prioritys {
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 20px
+}
+
+
+.priority label{
+    font-size: 120%;
+    width: 120px
+}
+
+.top5areas p {
+    color: white;
+    margin: 0px;
+    margin-left: 50px;
+}
+
+.top5areas{
+    
+    margin-bottom: 10px;
+}
+
+.stepperh2{
+    color:white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.stepperSelect{
+    width: 350px ;
+    margin-left: 30px
+} 
+
+.rentBuyButton{
+    color:white
+}
+
+#buttonShadow{
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+
+@media (max-width: 650px){
+    .HorizontalNonLinearAlternativeLabelStepper-root-1{
+        width: 100% !important;
+        height: 530px !important;
+    }
+    .SuggestionForm{
+        width: 100%;
+        height: 530px !important;
+    }
+
+    .stepperSelect{
+        width: 280px
+
+    } 
+
+}

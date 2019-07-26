@@ -1,0 +1,68 @@
+.displayResult{
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center
+
+}
+
+
+
+.search-jumbo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) ,
+    url("/assets/mapJumbo2.jpg");
+    background-size: cover;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    max-height: 450px;
+    margin-bottom: 0px;
+    display: flex;  
+    margin-top: -45px;
+    
+  }
+
+  .SearchJumboContent{
+    margin-top: 250px;
+  }
+  
+  .SearchJumboContent> h2{
+    color: white;
+    font-weight: 100;
+  
+  }
+  .SearchJumboContent> h3{
+    color: white;
+    font-weight: bold;
+  }
+
+  .sContent h1{
+      color: #49a942;
+      text-align: center;
+      margin: 40px;
+      font-size: 40px;
+  }
+
+  .sContent h2{
+    color: #4c4c4c;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.sContent h3{
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.jobChartSearch{
+  width:70%;
+  justify-content: center
+}
+
+@media screen and (max-width: 600px) {
+  
+  .jobChartSearch{
+    width:100%;
+    justify-content: center
+  }
+  
+}

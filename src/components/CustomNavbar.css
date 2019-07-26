@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+.navbar{
+  min-height: 70px !important;
+}
+nav.navbar, .navbar-default {
+  background-color: #006dae !important;
+}
+
+.navbar-default {
+  background-image: none;
+  position: relative;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+}
+.navbar-collapse{
+  min-height: inherit;
+  
+}
+
+.navbar-default .navbar-collapse{
+  display: inline;
+  }
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: white;
+  background-color: transparent;
+}
+.navbar-nav{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+  margin-left: 0.5rem;
+  flex: 1;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+  display: inline;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: white;
+}
+
+.navbar-brand{
+  margin-top: -20px;
+ }

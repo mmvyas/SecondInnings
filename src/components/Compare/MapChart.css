@@ -1,0 +1,23 @@
+.mapComparechart{
+    display: flex;
+}
+
+.mapComparechart .mapChart{
+    height: 600px;
+    width:100%;
+
+}
+.mapComparechart .mapChart #map{
+    height: 500px;
+    width: 100%
+
+}
+
+.modal-body .charts{
+    width: 100%
+}
+
+.modal-70w{
+        width: 70%;
+        max-width: none!important;
+}

@@ -1,0 +1,28 @@
+#JobPrediction{
+    padding-left: 30px;
+    padding-right: 30px;
+    width:100%
+}
+/* .Region{
+    display: flex
+}
+
+.Industry{
+    display: flex
+} */
+
+.Year{
+    padding-bottom: 50px
+}
+
+.chartAndCard{
+    display: flex
+}
+
+.jobPredictionChart{
+    width: 100%
+}
+
+#JobPrediction p{
+    margin: 10px
+}

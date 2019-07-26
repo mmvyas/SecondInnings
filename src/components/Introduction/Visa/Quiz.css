@@ -1,0 +1,355 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  font-family: sans-serif;
+} */
+
+
+.visa-jumbo {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) , url("/assets/visajumbo.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  margin-bottom: 0px;
+  display: flex;
+  margin-top: -45px;
+}
+
+.vismap {
+  margin-left:50px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.td pVisa{
+  padding-left: 0px;
+}
+
+.td{
+  width:auto;
+  color:white;
+  vertical-align: top;
+  margin-bottom:10px;
+
+}
+
+@media only screen and (min-width: 70em) {
+  .td{
+    display:table-cell;
+    color:white;
+    margin-bottom:0px;
+  }
+}
+
+.para2{
+  margin-left:250px;
+}
+.mapVisa{
+  max-width: 250px;
+  max-height: 250px;
+  padding-left: 45px;
+}
+
+.container1 {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+
+.QuizQues p{
+  color: #3c3c3c;
+  font-size: 15px;
+}
+
+.QuizQues p > a{
+  color: #49a942;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.QuizQues p > a:hover{
+  color: #007931;
+
+}
+
+.questionCount{
+  color: #3c3c3c;
+}
+
+h2{
+  color: #4c4c4c;
+}
+
+.QuizQues p > ul> li > a{
+  color: #49a942;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.answerOption > label{
+  color:#4c4c4c
+}
+
+.answerOption > label:hover{
+  background: gainsboro;
+  
+}
+
+.QuizQues p > ul> li > a:hover{
+  color: #007931;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+@media (min-width: 769px) {
+  .container {
+    margin: 2.5rem auto;
+  }
+}
+
+
+
+.visapolicy {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+  align-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+}
+
+.visapolicy h2 {
+  color: #3c3c3c;
+  padding-left: 40px;
+  font-size: 50px;
+  text-align: left;
+  font-weight: 100;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.visapolicy h3 {
+  color: #3c3c3c;
+  padding-left: 40px;
+  text-align: left;
+  font-size: 26px;
+}
+
+.visapolicy p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.visapolicy h4 {
+  padding-left: 40px;
+  margin-top: 30px;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.green a{
+  color: #49a942;
+}
+
+.visapolicy a {
+  color: #49a942;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.visapolicy bold {
+  font-weight: bold;
+}
+
+/* Result Component */
+.result {
+  padding: 1rem 2rem;
+}
+
+.result {
+  display: flex;
+  color: #4c4c4c;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.result a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: #49a942;
+}
+
+/* Quiz Component */
+.answerOptions {
+  list-style: none;
+  background-color: white;
+}
+
+/* QuestionCount Component */
+.questionCount {
+  padding: 1.5rem 2.5rem 0;
+  font-size: 14px;
+}
+
+/* Question Component */
+.question {
+  margin: 0;
+  padding: 0.5rem 2.5rem 1.5rem 2.5rem;
+}
+
+/* AnswerOption Component */
+.answerOption {
+  border-top: 1px solid #eee;
+}
+
+.answerOption:hover {
+  background-color: #eefbfe;
+}
+
+.radioCustomButton {
+  position: absolute;
+  width: auto;
+  opacity: 0;
+}
+
+.radioCustomButton,
+.radioCustomLabel {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.radioCustomLabel {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 1.5rem 2.5rem 1.5rem 5rem;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.radioCustomButton ~ .radioCustomLabel:before {
+  position: absolute;
+  top: 20px;
+  left: 38px;
+  width: 28px;
+  height: 28px;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.radioCustomButton:checked ~ .radioCustomLabel:before {
+  content: "";
+  background: #49a942 url(/src/svg/icon-check.svg) no-repeat;
+  background-size: 27px;
+  border-color: #49a942;
+}
+
+/* Animation */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out 0.3s;
+}
+
+figure > figcaption{
+  color:#707070;
+  margin-left: 50px;
+  text-align: center;
+  float:left;
+  font-size: 12px;
+  align-content: center;
+}
+
+.figure > figcaption > p{
+  color:#3c3c3c;
+  text-align: center;
+  font-size: 17px;
+}
+
+
+
+.fade-leave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@media (max-width: 681px){
+  .visapolicy h2{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 38px;
+
+  }
+  .visapolicy h3{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+
+  }
+  .visapolicy h4{
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  .visapolicy p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  figure > figcaption{
+    color:#707070;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 10px;
+    float: none;
+  }
+
+  .td{
+    display: block;
+  }
+
+  .visa-jumbo{
+    height: 150px;
+  }
+}

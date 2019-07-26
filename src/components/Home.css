@@ -1,0 +1,150 @@
+.homePage .jumbotron {
+  
+  background-image: url("/assets/jumbotron-2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 640px;
+  margin-bottom: 0px;
+}
+.content{
+  margin-top: 80px;
+  padding-right: 20px;
+}
+
+.searchBtn{
+  background-color: #fff !important;
+  border: 1px solid #4c4c4c !important;
+  color: #49a942;
+  font-weight: bold;
+}
+
+.searchBtn:hover{
+  color: #00703c;
+}
+
+.compareBtn:hover{
+  background-color: #00703c !important;
+}
+
+.content h2{
+  color: white;
+}
+.content h3{
+  color: white;
+}
+
+h1{
+  font-size: 3rem;
+  color:white;
+}
+
+h2{
+  color: white;
+  margin-left: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.jumbotron a{
+  cursor: pointer;
+}
+
+
+.profile-pic {
+  width: 50%;
+}
+
+.container{
+  background-color: white;;
+  min-width: 100%;
+  margin: 0px;
+}
+
+.row{
+  display: inline;
+  
+}
+
+.btn-primary {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  background-color: #49a942;
+  margin-left: 10px;
+  margin-top: 5px;
+} 
+
+.btn-primary:hover{
+  background: #00703c;
+}
+
+h3 {
+  
+  margin-left: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.form-inline {
+  width: 100% !important;
+}
+
+.form-control{
+  width:80% !important;
+}
+
+.button-jittery {
+  background: transparent;
+	color: #fff;
+	border: 3px solid #fff;
+	border-radius: 50px;
+	padding: 0.8rem 2rem;
+	font: 24px "Margarine", sans-serif;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	transition: 0.2s ease-in-out;
+	letter-spacing: 2px;
+}
+
+.button-jittery  {
+  animation: jittery 4s infinite;
+}
+.button-jittery :hover {
+  animation: heartbeat 0.2s infinite;
+}
+
+
+@keyframes jittery {
+  5%, 50% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  15% {
+    transform: scale(1.15);
+  }
+  20% {
+    transform: scale(1.15) rotate(-5deg);
+  }
+  25% {
+    transform: scale(1.15) rotate(5deg);
+  }
+  30% {
+    transform: scale(1.15) rotate(-3deg);
+  }
+  35% {
+    transform: scale(1.15) rotate(2deg);
+  }
+  40% {
+    transform: scale(1.15) rotate(0);
+  }
+}
+@media only screen and (max-width: 750px) {
+	.jumbotron{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+}

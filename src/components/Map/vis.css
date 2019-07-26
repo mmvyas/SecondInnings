@@ -1,0 +1,202 @@
+.mapChart{
+    display: flex;
+    flex-direction: row
+}
+
+.map-jumbo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) ,
+    url("/assets/mapJumbo2.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    margin-bottom: 0px;
+    display: flex;  
+    margin-left: 0px;
+    margin-top: 75px;
+    
+  }
+
+  .vis > h5{
+      color: #49a942;
+  }
+
+  .map-jumbo h1{
+      margin-top: 350px;
+  }
+
+.vis{
+    padding-top: 30px;
+    background: white;
+}
+
+#map{
+    height: 600px;
+    width:50%;
+    margin-right:30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    z-index: 0;
+}
+.vis h1{
+    color:	#696969
+}
+.vis h3{
+    color:	#4c4c4c;
+}
+.vis h5{
+    color:	#696969
+}
+
+.vis li{
+    color: #707070;
+}
+
+.vis .btn-primary{
+    margin-left: 0px;
+    margin-right: 10px
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #04598a;
+    border-color: #04598a;
+}
+
+.btn:hover{
+    background: #49a942;
+}
+.btn:focus{
+    background: #49a942;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #006dae;
+    border-color: #006dae;
+}
+
+.charts{
+    width:50%
+
+}
+
+
+.js-plotly-plot{
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.buttonGroups {
+    display: flex
+}
+
+.populationChart{
+display: block
+}
+.criminalChart{
+display: block
+}
+.hospitalChart{
+display: block
+}
+.jobChart{
+display: block
+}
+.btn-group{
+    margin-right: 30px;
+}
+
+.mapContent ul{
+    padding-left: 80px;
+
+
+}
+
+.vis .nav-pills{
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .mapChart{
+        display: flex;
+        flex-direction: column
+    }
+    #map{
+        height: 300px;
+        width:95%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+    .charts{
+        width:100%;
+        margin-top: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .map-jumbo{
+        min-height: 350px;
+      }
+
+    .map-jumbo h1{
+        margin-top: 100px;
+    }
+
+    .mapContent{
+        padding-right: 20px;
+        padding-left: 20px;
+
+
+    }
+    .mapContent ul{
+        padding-right: 20px;
+        padding-left: 20px;
+
+
+    }
+
+    .btn-group{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .vis h3{
+        margin-left: 0px;
+        padding-left: 20px !important;
+
+    }
+    .vis h5{
+        padding-right: 20px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .vis .nav-pills{
+        padding-left: 20px;
+    }
+    
+
+
+}
+
+.chart li{
+   padding-bottom: 5px
+}

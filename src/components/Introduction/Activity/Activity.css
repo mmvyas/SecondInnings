@@ -1,0 +1,59 @@
+.activity {
+    flex-direction: column;
+    
+  }
+
+  .CyclingGoogleMap{
+    width: 600px;
+    height: 600px
+  }
+
+  .activity-jumbo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,
+    url("/assets/activity-jumbo.jpg");
+    background-size: cover;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    margin-bottom: 0px;
+    display: flex;  
+    margin-top: -45px;
+    margin-bottom: 50px;
+  }
+
+  .actJumboContent{
+    margin-top: 200px;
+  }
+
+  .actContent{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  @media only screen and (max-width: 481px) {
+    .activity-jumbo{
+      min-height: 350px;
+    }
+    .actJumboContent{
+      margin-top: 150px;
+      margin-bottom: 0px;
+    }
+    .actJumboContent h1{
+      font-size: 38px;
+    }
+    .actContent p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .CyclingGoogleMap{
+      width: 300px !important;
+      height: 300px !important;
+    }
+  }
+
+
+  
+ 

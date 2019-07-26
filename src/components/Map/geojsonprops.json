@@ -1,0 +1,412 @@
+{
+    "451": {
+        "population": 12337,
+        "criminal_incident": 394,
+        "criminal_rate": 74.2812387
+    },
+    "593": {
+        "population": 11600,
+        "criminal_incident": 900,
+        "criminal_rate": 134.18148159999998
+    },
+    "599": {
+        "population": 101686,
+        "criminal_incident": 8085,
+        "criminal_rate": 101.6948958
+    },
+    "392": {
+        "population": 121865,
+        "criminal_incident": 7173,
+        "criminal_rate": 71.17288902
+    },
+    "605": {
+        "population": 48479,
+        "criminal_incident": 3179,
+        "criminal_rate": 93.03656582
+    },
+    "307": {
+        "population": 97087,
+        "criminal_incident": 3701,
+        "criminal_rate": 55.02673648
+    },
+    "540": {
+        "population": 167231,
+        "criminal_incident": 5604,
+        "criminal_rate": 44.12437065
+    },
+    "497": {
+        "population": 194319,
+        "criminal_incident": 14594,
+        "criminal_rate": 82.60922403
+    },
+    "578": {
+        "population": 32804,
+        "criminal_incident": 1665,
+        "criminal_rate": 77.93096922
+    },
+    "351": {
+        "population": 32804,
+        "criminal_incident": 1665,
+        "criminal_rate": 77.93096922
+    },
+    "352": {
+        "population": 32804,
+        "criminal_incident": 1665,
+        "criminal_rate": 77.93096922
+    },
+    "556": {
+        "population": 13861,
+        "criminal_incident": 878,
+        "criminal_rate": 108.30464769999999
+    },
+    "587": {
+        "population": 6201,
+        "criminal_incident": 182,
+        "criminal_rate": 78.76258083
+    },
+    "549": {
+        "population": 299301,
+        "criminal_incident": 16004,
+        "criminal_rate": 57.9670041
+    },
+    "588": {
+        "population": 37061,
+        "criminal_incident": 2844,
+        "criminal_rate": 120.23565959999999
+    },
+    "548": {
+        "population": 94128,
+        "criminal_incident": 4514,
+        "criminal_rate": 57.184779500000005
+    },
+    "591": {
+        "population": 12995,
+        "criminal_incident": 972,
+        "criminal_rate": 123.3408092
+    },
+    "582": {
+        "population": 20972,
+        "criminal_incident": 1271,
+        "criminal_rate": 98.63376106
+    },
+    "475": {
+        "population": 16051,
+        "criminal_incident": 541,
+        "criminal_rate": 65.03666836
+    },
+    "502": {
+        "population": 146719,
+        "criminal_incident": 11621,
+        "criminal_rate": 89.13065962
+    },
+    "466": {
+        "population": 45040,
+        "criminal_incident": 3195,
+        "criminal_rate": 97.99253816
+    },
+    "481": {
+        "population": 134143,
+        "criminal_incident": 11308,
+        "criminal_rate": 102.1362733
+    },
+    "281": {
+        "population": 140875,
+        "criminal_incident": 4987,
+        "criminal_rate": 44.95909928
+    },
+    "589": {
+        "population": 110477,
+        "criminal_incident": 7755,
+        "criminal_rate": 88.14886379999999
+    },
+    "283": {
+        "population": 152050,
+        "criminal_incident": 14119,
+        "criminal_rate": 104.3115615
+    },
+    "601": {
+        "population": 233429,
+        "criminal_incident": 16059,
+        "criminal_rate": 80.02148357
+    },
+    "576": {
+        "population": 63837,
+        "criminal_incident": 6205,
+        "criminal_rate": 131.8412092
+    },
+    "506": {
+        "population": 10549,
+        "criminal_incident": 523,
+        "criminal_rate": 107.84222220000001
+    },
+    "544": {
+        "population": 19557,
+        "criminal_incident": 1035,
+        "criminal_rate": 89.34882035
+    },
+    "533": {
+        "population": 88778,
+        "criminal_incident": 4821,
+        "criminal_rate": 67.60861426
+    },
+    "551": {
+        "population": 197376,
+        "criminal_incident": 15595,
+        "criminal_rate": 82.14653119
+    },
+    "594": {
+        "population": 15330,
+        "criminal_incident": 603,
+        "criminal_rate": 77.61439914
+    },
+    "562": {
+        "population": 5721,
+        "criminal_incident": 256,
+        "criminal_rate": 108.40026200000001
+    },
+    "566": {
+        "population": 19642,
+        "criminal_incident": 1577,
+        "criminal_rate": 125.67314070000002
+    },
+    "492": {
+        "population": 15952,
+        "criminal_incident": 342,
+        "criminal_rate": 44.48988697
+    },
+    "480": {
+        "population": 151389,
+        "criminal_incident": 8530,
+        "criminal_rate": 66.83915667
+    },
+    "542": {
+        "population": 154110,
+        "criminal_incident": 8090,
+        "criminal_rate": 65.85412314
+    },
+    "574": {
+        "population": 73257,
+        "criminal_incident": 9927,
+        "criminal_rate": 159.52095269999998
+    },
+    "563": {
+        "population": 7516,
+        "criminal_incident": 390,
+        "criminal_rate": 123.89727009999999
+    },
+    "538": {
+        "population": 116255,
+        "criminal_incident": 3351,
+        "criminal_rate": 39.42992894
+    },
+    "531": {
+        "population": 82288,
+        "criminal_incident": 6948,
+        "criminal_rate": 97.36232340000001
+    },
+    "504": {
+        "population": 110376,
+        "criminal_incident": 5919,
+        "criminal_rate": 69.63851275
+    },
+    "580": {
+        "population": 135959,
+        "criminal_incident": 26954,
+        "criminal_rate": 170.05033799999998
+    },
+    "520": {
+        "population": 53878,
+        "criminal_incident": 5568,
+        "criminal_rate": 135.52635959999998
+    },
+    "543": {
+        "population": 182618,
+        "criminal_incident": 8244,
+        "criminal_rate": 54.15661156
+    },
+    "606": {
+        "population": 116671,
+        "criminal_incident": 6695,
+        "criminal_rate": 69.45574570000001
+    },
+    "600": {
+        "population": 31818,
+        "criminal_incident": 1768,
+        "criminal_rate": 88.56335716
+    },
+    "604": {
+        "population": 162558,
+        "criminal_incident": 11615,
+        "criminal_rate": 81.37613384
+    },
+    "558": {
+        "population": 154999,
+        "criminal_incident": 8160,
+        "criminal_rate": 62.48160175
+    },
+    "432": {
+        "population": 46100,
+        "criminal_incident": 1665,
+        "criminal_rate": 51.05102479999999
+    },
+    "603": {
+        "population": 8584,
+        "criminal_incident": 334,
+        "criminal_rate": 80.01930542
+    },
+    "598": {
+        "population": 135443,
+        "criminal_incident": 8068,
+        "criminal_rate": 69.2429243
+    },
+    "584": {
+        "population": 40918,
+        "criminal_incident": 3015,
+        "criminal_rate": 96.18162973
+    },
+    "491": {
+        "population": 29112,
+        "criminal_incident": 1567,
+        "criminal_rate": 88.20597836
+    },
+    "585": {
+        "population": 18761,
+        "criminal_incident": 697,
+        "criminal_rate": 66.39110008
+    },
+    "560": {
+        "population": 16495,
+        "criminal_incident": 428,
+        "criminal_rate": 55.35715297
+    },
+    "353": {
+        "population": 13732,
+        "criminal_incident": 575,
+        "criminal_rate": 87.32752187
+    },
+    "554": {
+        "population": 13732,
+        "criminal_incident": 575,
+        "criminal_rate": 87.32752187
+    },
+    "590": {
+        "population": 11439,
+        "criminal_incident": 769,
+        "criminal_rate": 126.82129350000001
+    },
+    "581": {
+        "population": 100863,
+        "criminal_incident": 9968,
+        "criminal_rate": 109.1289223
+    },
+    "592": {
+        "population": 7238,
+        "criminal_incident": 340,
+        "criminal_rate": 115.0416364
+    },
+    "553": {
+        "population": 103832,
+        "criminal_incident": 8349,
+        "criminal_rate": 101.2549844
+    },
+    "577": {
+        "population": 10274,
+        "criminal_incident": 439,
+        "criminal_rate": 86.57105864
+    },
+    "579": {
+        "population": 28703,
+        "criminal_incident": 1023,
+        "criminal_rate": 57.98603347
+    },
+    "525": {
+        "population": 15944,
+        "criminal_incident": 1117,
+        "criminal_rate": 114.7726334
+    },
+    "583": {
+        "population": 29397,
+        "criminal_incident": 877,
+        "criminal_rate": 49.58179566
+    },
+    "586": {
+        "population": 20584,
+        "criminal_incident": 1783,
+        "criminal_rate": 127.60154070000002
+    },
+    "410": {
+        "population": 5985,
+        "criminal_incident": 181,
+        "criminal_rate": 86.45027664
+    },
+    "602": {
+        "population": 28310,
+        "criminal_incident": 1749,
+        "criminal_rate": 94.10225173
+    },
+    "304": {
+        "population": 33655,
+        "criminal_incident": 2917,
+        "criminal_rate": 121.1188601
+    },
+    "597": {
+        "population": 42983,
+        "criminal_incident": 2828,
+        "criminal_rate": 94.36469845
+    },
+    "539": {
+        "population": 162078,
+        "criminal_incident": 6270,
+        "criminal_rate": 50.03375195
+    },
+    "595": {
+        "population": 197491,
+        "criminal_incident": 11815,
+        "criminal_rate": 64.54235654
+    },
+    "493": {
+        "population": 39351,
+        "criminal_incident": 2395,
+        "criminal_rate": 86.16957869
+    },
+    "470": {
+        "population": 217122,
+        "criminal_incident": 11306,
+        "criminal_rate": 55.77442445
+    },
+    "522": {
+        "population": 3903,
+        "criminal_incident": 128,
+        "criminal_rate": 123.6811535
+    },
+    "552": {
+        "population": 86657,
+        "criminal_incident": 11333,
+        "criminal_rate": 153.7784158
+    },
+    "503": {
+        "population": 149537,
+        "criminal_incident": 5561,
+        "criminal_rate": 45.60834216
+    },
+    "474": {
+        "population": 6674,
+        "criminal_incident": 336,
+        "criminal_rate": 121.1310485
+    },
+    "484": {
+        "population": 21688,
+        "criminal_incident": 507,
+        "criminal_rate": 56.53922283
+    },
+    "596": {
+        "population": 61273,
+        "criminal_incident": 1655,
+        "criminal_rate": 43.17727133
+    },
+    "413": {
+        "population": 2853,
+        "criminal_incident": 101,
+        "criminal_rate": 134.5850139
+    }
+}

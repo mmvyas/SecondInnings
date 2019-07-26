@@ -1,0 +1,36 @@
+.searchLga{
+    background-color: rgba(20,50,70,0.6);
+    border-radius: 10px;
+    max-width: 400px;
+    margin-top: 30px;
+    padding-top: 1px;
+    height: 150px;
+   
+}
+.searchLga p{
+    color: white;
+}
+
+.searchDiv{
+    display: flex;
+}
+
+.favSearch{
+    background: #49a942 !important;
+    color: white !important;
+    margin-left: 30px !important;
+    margin-top: 11px !important;
+    font-weight: 600 !important;
+  }
+
+  .compareFiveButton{
+    background: #49a942 !important;
+  }
+
+  
+
+  @media (max-width: 650px){
+      .searchLga{
+          width: 100%;
+      }
+  }

@@ -1,0 +1,135 @@
+.Nscontent {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+  
+  align-content: center;
+  max-width: 100%;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  background-color: white;
+}
+
+a:hover{
+  color: #007931;
+}
+
+.MuiStepIcon-root-52.MuiStepIcon-active-54 {color: #49a942 !important}
+.MuiStepIcon-root-52.MuiStepIcon-completed-55{
+  color: #007931 !important;
+
+}
+
+.css-1pcexqc-container {
+  margin-top:10px;
+}
+
+.nsArticle{
+  padding: 0px;
+  border: none;
+  width: 100%;
+  text-align: left;
+  align-content: center;
+}
+
+.nsArticle:hover{
+  background: white;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nsArticle p{
+  margin: 0px;
+  color: #4c4c4c;
+}
+
+.nsArticle a{
+  margin: 20px;
+  color: #49a942;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nsArticle p:hover{
+  margin: 0px;
+  padding: 0px;
+  color: #4c4c4c;
+}
+
+.widthWrapper {
+  margin: 0px;
+  margin: 0px;
+}
+
+.nextsteps-jumbo{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,
+  url("/assets/nextsteps.jpg");
+  background-size: cover;
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  min-height: 550px;
+  margin-bottom: 0px;
+  display: flex;  
+  margin-top: -45px;
+  
+}
+
+.nsJumboContent{
+  margin-top: 250px;
+}
+
+.nsJumboContent> h2{
+  color: white;
+  font-weight: 100;
+
+}
+.nsJumboContent> h3{
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  margin: 20px;
+}
+
+.Nscontent > h2 {
+  color: #4c4c4c;
+  margin: 20px;
+  text-align: center;
+}
+
+a {
+  font-weight: bold;
+  color: #49a942;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 650px){
+  
+
+  .nsJumboContent> h1{
+    font-size: 38px;
+  }
+
+  .nsJumboContent> h2{
+    font-size: 20px;
+  }
+
+  .nsJumboContent> h3{
+    font-size: 20px;
+  }
+
+  .nextsteps-jumbo{
+    min-height: 350px;
+  }
+  .nsJumboContent{
+    margin-top: 40px;
+  }
+}

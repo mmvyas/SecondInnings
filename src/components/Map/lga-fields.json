@@ -1,0 +1,370 @@
+{
+   "267": {
+      "Population": 47000,
+      "CriminalRate": "47.00%"
+   },
+   "281": {
+      "Population": 48000,
+      "CriminalRate": "48.00%"
+   },
+   "283": {
+      "Population": 49000,
+      "CriminalRate": "49.00%"
+   },
+   "304": {
+      "Population": 50000,
+      "CriminalRate": "50.00%"
+   },
+   "307": {
+      "Population": 51000,
+      "CriminalRate": "51.00%"
+   },
+   "313": {
+      "Population": 52000,
+      "CriminalRate": "52.00%"
+   },
+   "349": {
+      "Population": 53000,
+      "CriminalRate": "53.00%"
+   },
+   "351": {
+      "Population": 45000,
+      "CriminalRate": "45.00%"
+   },
+   "352": {
+      "Population": 46000,
+      "CriminalRate": "46.00%"
+   },
+   "353": {
+      "Population": 54000,
+      "CriminalRate": "54.00%"
+   },
+   "357": {
+      "Population": 83000,
+      "CriminalRate": "83.00%"
+   },
+   "379": {
+      "Population": 84000,
+      "CriminalRate": "84.00%"
+   },
+   "380": {
+      "Population": 85000,
+      "CriminalRate": "85.00%"
+   },
+   "392": {
+      "Population": 86000,
+      "CriminalRate": "86.00%"
+   },
+   "410": {
+      "Population": 87000,
+      "CriminalRate": "87.00%"
+   },
+   "413": {
+      "Population": 88000,
+      "CriminalRate": "88.00%"
+   },
+   "420": {
+      "Population": 89000,
+      "CriminalRate": "89.00%"
+   },
+   "432": {
+      "Population": 90000,
+      "CriminalRate": "90.00%"
+   },
+   "445": {
+      "Population": 91000,
+      "CriminalRate": "91.00%"
+   },
+   "451": {
+      "Population": 92000,
+      "CriminalRate": "92.00%"
+   },
+   "452": {
+      "Population": 1000,
+      "CriminalRate": "1%"
+   },
+   "465": {
+      "Population": 2000,
+      "CriminalRate": "2.00%"
+   },
+   "466": {
+      "Population": 3000,
+      "CriminalRate": "3.00%"
+   },
+   "470": {
+      "Population": 4000,
+      "CriminalRate": "4.00%"
+   },
+   "474": {
+      "Population": 5000,
+      "CriminalRate": "5.00%"
+   },
+   "475": {
+      "Population": 6000,
+      "CriminalRate": "6.00%"
+   },
+   "480": {
+      "Population": 7000,
+      "CriminalRate": "7.00%"
+   },
+   "481": {
+      "Population": 8000,
+      "CriminalRate": "8.00%"
+   },
+   "484": {
+      "Population": 9000,
+      "CriminalRate": "9.00%"
+   },
+   "491": {
+      "Population": 10000,
+      "CriminalRate": "10.00%"
+   },
+   "492": {
+      "Population": 11000,
+      "CriminalRate": "11.00%"
+   },
+   "493": {
+      "Population": 12000,
+      "CriminalRate": "12.00%"
+   },
+   "497": {
+      "Population": 13000,
+      "CriminalRate": "13.00%"
+   },
+   "502": {
+      "Population": 14000,
+      "CriminalRate": "14.00%"
+   },
+   "503": {
+      "Population": 15000,
+      "CriminalRate": "15.00%"
+   },
+   "504": {
+      "Population": 16000,
+      "CriminalRate": "16.00%"
+   },
+   "506": {
+      "Population": 17000,
+      "CriminalRate": "17.00%"
+   },
+   "520": {
+      "Population": 18000,
+      "CriminalRate": "18.00%"
+   },
+   "522": {
+      "Population": 19000,
+      "CriminalRate": "19.00%"
+   },
+   "525": {
+      "Population": 20000,
+      "CriminalRate": "20.00%"
+   },
+   "531": {
+      "Population": 21000,
+      "CriminalRate": "21.00%"
+   },
+   "533": {
+      "Population": 22000,
+      "CriminalRate": "22.00%"
+   },
+   "538": {
+      "Population": 23000,
+      "CriminalRate": "23.00%"
+   },
+   "539": {
+      "Population": 24000,
+      "CriminalRate": "24.00%"
+   },
+   "540": {
+      "Population": 25000,
+      "CriminalRate": "25.00%"
+   },
+   "542": {
+      "Population": 26000,
+      "CriminalRate": "26.00%"
+   },
+   "543": {
+      "Population": 27000,
+      "CriminalRate": "27.00%"
+   },
+   "544": {
+      "Population": 28000,
+      "CriminalRate": "28.00%"
+   },
+   "548": {
+      "Population": 29000,
+      "CriminalRate": "29.00%"
+   },
+   "549": {
+      "Population": 30000,
+      "CriminalRate": "30.00%"
+   },
+   "551": {
+      "Population": 31000,
+      "CriminalRate": "31.00%"
+   },
+   "552": {
+      "Population": 32000,
+      "CriminalRate": "32.00%"
+   },
+   "553": {
+      "Population": 33000,
+      "CriminalRate": "33.00%"
+   },
+   "554": {
+      "Population": 34000,
+      "CriminalRate": "34.00%"
+   },
+   "556": {
+      "Population": 35000,
+      "CriminalRate": "35.00%"
+   },
+   "558": {
+      "Population": 36000,
+      "CriminalRate": "36.00%"
+   },
+   "560": {
+      "Population": 37000,
+      "CriminalRate": "37.00%"
+   },
+   "562": {
+      "Population": 38000,
+      "CriminalRate": "38.00%"
+   },
+   "563": {
+      "Population": 41000,
+      "CriminalRate": "41.00%"
+   },
+   "566": {
+      "Population": 39000,
+      "CriminalRate": "39.00%"
+   },
+   "574": {
+      "Population": 40000,
+      "CriminalRate": "40.00%"
+   },
+   "576": {
+      "Population": 44000,
+      "CriminalRate": "44.00%"
+   },
+   "577": {
+      "Population": 42000,
+      "CriminalRate": "42.00%"
+   },
+   "578": {
+      "Population": 43000,
+      "CriminalRate": "43.00%"
+   },
+   "579": {
+      "Population": 60000,
+      "CriminalRate": "60.00%"
+   },
+   "580": {
+      "Population": 79000,
+      "CriminalRate": "79.00%"
+   },
+   "581": {
+      "Population": 81000,
+      "CriminalRate": "81.00%"
+   },
+   "582": {
+      "Population": 55000,
+      "CriminalRate": "55.00%"
+   },
+   "583": {
+      "Population": 65000,
+      "CriminalRate": "65.00%"
+   },
+   "584": {
+      "Population": 71000,
+      "CriminalRate": "71.00%"
+   },
+   "585": {
+      "Population": 58000,
+      "CriminalRate": "58.00%"
+   },
+   "586": {
+      "Population": 64000,
+      "CriminalRate": "64.00%"
+   },
+   "587": {
+      "Population": 63000,
+      "CriminalRate": "63.00%"
+   },
+   "588": {
+      "Population": 59000,
+      "CriminalRate": "59.00%"
+   },
+   "589": {
+      "Population": 73000,
+      "CriminalRate": "73.00%"
+   },
+   "590": {
+      "Population": 56000,
+      "CriminalRate": "56.00%"
+   },
+   "591": {
+      "Population": 72000,
+      "CriminalRate": "72.00%"
+   },
+   "592": {
+      "Population": 67000,
+      "CriminalRate": "67.00%"
+   },
+   "593": {
+      "Population": 66000,
+      "CriminalRate": "66.00%"
+   },
+   "594": {
+      "Population": 70000,
+      "CriminalRate": "70.00%"
+   },
+   "595": {
+      "Population": 77000,
+      "CriminalRate": "77.00%"
+   },
+   "596": {
+      "Population": 78000,
+      "CriminalRate": "78.00%"
+   },
+   "597": {
+      "Population": 61000,
+      "CriminalRate": "61.00%"
+   },
+   "598": {
+      "Population": 76000,
+      "CriminalRate": "76.00%"
+   },
+   "599": {
+      "Population": 69000,
+      "CriminalRate": "69.00%"
+   },
+   "600": {
+      "Population": 57000,
+      "CriminalRate": "57.00%"
+   },
+   "601": {
+      "Population": 68000,
+      "CriminalRate": "68.00%"
+   },
+   "602": {
+      "Population": 62000,
+      "CriminalRate": "62.00%"
+   },
+   "603": {
+      "Population": 75000,
+      "CriminalRate": "75.00%"
+   },
+   "604": {
+      "Population": 80000,
+      "CriminalRate": "80.00%"
+   },
+   "605": {
+      "Population": 74000,
+      "CriminalRate": "74.00%"
+   },
+   "606": {
+      "Population": 82000,
+      "CriminalRate": "82.00%"
+   }
+}

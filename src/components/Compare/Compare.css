@@ -1,0 +1,171 @@
+.table{
+  margin-top: 80px;
+  margin-left:30px;
+  margin-right:30px;
+  width:90%;
+}
+
+.compare-jumbo{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) ,
+  url("/assets/compare.jpg");
+  background-size: cover;
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  height: 450px;
+  margin-bottom: 0px;
+  display: flex;  
+  margin-top: -45px;
+  
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-top:  0px;
+  font-size: 20px;
+}
+
+.nameWithIcon{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-minus-square{
+  font-size: 1.2rem;
+  padding-top: 29px;
+
+}
+.fa-plus-square{
+  font-size: 1.2rem;
+  padding-top: 29px;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #49a942 !important;
+    color: white;
+}
+
+.cmpJumboContent{
+  margin-top: 150px;
+}
+
+.cmpJumboContent> h2{
+  color: white;
+  font-weight: 100;
+
+}
+.cmpJumboContent> h3{
+  color: white;
+  font-weight: bold;
+}
+
+/* .cmpContent{
+
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px
+} */
+
+.cmpContent h1{
+    color: #49a942;
+    text-align: center;
+    margin: 40px;
+    font-size: 40px;
+}
+
+.cmpContent h2{
+  color: #4c4c4c;
+  margin: 20px;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.cmpContent h3{
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.cardWithName{
+  background: #f4f4f4;
+  margin-block-end: 30px;
+  border: 1px solid #707070a8;
+  max-width: 1250px
+
+}
+
+.sampleCardRow{
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  width: 15% ;
+}
+
+.compareNew{
+  padding-top: 100px
+}
+
+.linkToExploration {
+  justify-content: center;
+  text-align: center
+}
+
+@media screen and (max-width: 600px) {
+.compareNew h2{
+  font-size: 120%;
+  padding-left: 5px
+
+}
+}
+@media (max-width: 1000px){
+  .cmpJumboContent> h1{
+    font-size: 38px;
+  }
+
+  .cmpJumboContent> h2{
+    font-size: 20px;
+  }
+
+  .cmpJumboContent> h3{
+    font-size: 20px;
+  }
+  .cmpJumboContent{
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 650px){
+  .sampleCardRow{
+    flex-direction: column
+  }
+
+
+  .cmpJumboContent> h1{
+    font-size: 38px;
+  }
+
+  .cmpJumboContent> h2{
+    font-size: 20px;
+  }
+
+  .cmpJumboContent> h3{
+    font-size: 20px;
+  }
+
+  .compare-jumbo{
+    min-height: 350px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,
+  url("/assets/compare.jpg");
+  }
+  .cmpJumboContent{
+    margin-top: 40px;
+  }
+
+  .nameWithIcon{
+    width:auto ;
+  }
+}
+

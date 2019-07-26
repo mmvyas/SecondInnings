@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    justify-content: center; 
+    max-height: 100%;
+    max-width: 100%;
+    align-items: center;
+}
+
+.card-img-top{
+    max-height:200px;
+    
+}
+
+.card-deck{
+    display: flex;
+    max-width: 100%;
+    margin-left: 0;
+    align-items: center;
+}
+
+h3{
+    color: white;
+}
+
+.row{
+    text-align: center;
+}
+
+

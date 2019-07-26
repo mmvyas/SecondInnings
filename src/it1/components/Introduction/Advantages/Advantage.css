@@ -1,0 +1,19 @@
+.AdvantageButtons{
+    flex-direction: row;
+    width:100%;
+    position: sticky;
+    top: 0
+}
+
+.AdvantageButton{
+    width:150px
+}
+
+.Vischart{
+    margin-top: 50px;
+}
+
+.advh2{
+    color: black;
+    margin-bottom: 20px
+}

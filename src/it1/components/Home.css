@@ -1,0 +1,107 @@
+.jumbotron {
+  background-image: url("/assets/jumbotron2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+h1{
+  font-size: 3.5rem;
+  margin-top: 70px;
+  color:white;
+}
+
+h2{
+  color: white;
+  margin-left: 5px;
+}
+
+
+
+.profile-pic {
+  width: 50%;
+}
+
+.container{
+  padding-top: 20px;
+  background-color: #c31d5a;
+  min-width: 100%;
+}
+
+.row{
+  display: inline;
+  
+}
+
+.btn-primary {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  background-color: #c31d5a;
+  margin-left: 10px;
+  margin-top: 5px;
+} 
+
+h3 {
+  
+  margin-left: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.form-inline {
+  width: 100% !important;
+}
+
+.form-control{
+  width:80% !important;
+}
+
+.button-jittery {
+  background: transparent;
+	color: #fff;
+	border: 3px solid #fff;
+	border-radius: 50px;
+	padding: 0.8rem 2rem;
+	font: 24px "Margarine", sans-serif;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	transition: 0.2s ease-in-out;
+	letter-spacing: 2px;
+}
+
+.button-jittery  {
+  animation: jittery 4s infinite;
+}
+.button-jittery :hover {
+  animation: heartbeat 0.2s infinite;
+}
+
+
+@keyframes jittery {
+  5%, 50% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  15% {
+    transform: scale(1.15);
+  }
+  20% {
+    transform: scale(1.15) rotate(-5deg);
+  }
+  25% {
+    transform: scale(1.15) rotate(5deg);
+  }
+  30% {
+    transform: scale(1.15) rotate(-3deg);
+  }
+  35% {
+    transform: scale(1.15) rotate(2deg);
+  }
+  40% {
+    transform: scale(1.15) rotate(0);
+  }
+}

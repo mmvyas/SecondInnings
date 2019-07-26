@@ -1,0 +1,33 @@
+.cardbutton{
+    width: 100%
+}
+.cardbutton{
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+    float: none;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: #49a942;    
+}
+
+.cardbutton :hover{
+    text-decoration: none;
+    text-emphasis: none;
+    background: #00703c;
+
+}
+
+.card-text{
+    color: #707070;
+    margin: 0px;
+    text-align: justify;
+}
+
+@media (max-width: 481px) {
+.card-deck{
+    margin-top: 30px;
+}
+}

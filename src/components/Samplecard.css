@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+  } 
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    padding: 0 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .row1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .row2{
+    display: flex;
+    justify-content: center;
+  }
+  .row3{
+    display: flex;
+    justify-content: center;
+  }
+
+  .info{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 130px;
+  }
+
+  .material-icons{    
+    margin-top:-10px;
+    font-size: 19px;
+  }
+
+  .Samplecard img{
+    margin-top: 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0 -5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card h3{
+    font-weight: bold;
+    
+    text-align: center;
+    color: #4c4c4c;
+  }
+  .card p{
+    text-align: center;
+    color: #707070;
+    margin:0px;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      display: flex;
+    }
+  }
+  
+  /* Style the counter cards */
+  .Samplecard {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 180px;
+    height: 130px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #49a942;
+    border-top: 3px solid #0a7a38;
+    border-radius: 0px;
+  }
+
+  .Samplecard p{
+    margin: 0px;
+  }

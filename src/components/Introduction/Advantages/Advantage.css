@@ -1,0 +1,181 @@
+.AdvantageButtons{
+    flex-direction: row;
+    width:100%;
+    top: 0
+}
+
+.adv-jumbo{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,
+  url("/assets/Adv.jpg");
+  background-size: cover;
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  margin-bottom: 0px;
+  display: flex;  
+  margin-top: -45px;
+  
+}
+
+.advContent{
+  display: flex;
+  justify-content: center;
+  /* margin-top: 50px; */
+}
+
+.advContent > p > a{
+  display: flex;
+  justify-content: center;
+}
+
+.chartText > ul{
+  color: #707070;
+  text-align: justify;
+}
+
+.advContent > p > a:hover{
+  color: #007931;
+  text-decoration: none;
+}
+
+.advJumboContent{
+  max-width: 1000px;
+  margin-top: 40px;
+}
+
+.advJumboContent h3{
+  color:white;
+  font-weight: bold;
+}
+
+.chartText{
+  color: #49a942;
+}
+
+
+.AdvantageButton{
+    width:150px
+}
+
+.Vischart{
+    margin-top: 50px;
+}
+
+.advh2{
+    color: #444;
+    margin-bottom: 20px
+}
+
+.introductionContent{
+    margin-top: 100px;
+}
+
+
+  article a:link, a:visited { 
+    color: (internal value);
+    text-decoration: underline;
+    cursor: auto;
+  }
+
+  /* Basic CSS Reset */
+
+
+.postImg {
+  height: 150px;
+  margin-right: 30px
+}
+
+
+
+article a {
+  text-decoration: none;
+  
+  font-weight: bold;
+  font-weight: 400;
+}
+
+.widthWrapper {
+  margin: 0 auto;
+  margin: 3em auto;
+}
+
+
+article {
+    margin: auto;
+  align-content: center;
+  width:80%
+
+}
+
+article{
+    display: flex;
+  padding: 2.374em 2.5em 2.5em 2.5em;
+  overflow: hidden;
+  border-top: .063em solid #ccc;
+  border-bottom: .063em solid #ccc;
+  cursor: pointer;
+}
+
+article:hover {
+  background: rgba(228, 227, 227,0.5);
+  border-top: #666 solid .25em;
+  padding: 2.187em 2.5em 2.5em 2.5em;
+}
+
+
+article h2 {
+  color: #444;
+}
+
+article:hover h2 {
+  color: #49a942;
+}
+
+article p {
+  color: #707070;
+  text-align: justify;
+}
+
+article:hover p {
+  color: #222;
+}
+
+@media only screen and (max-width: 1000px) {
+  .postImg{
+    height: 100px;
+  }
+
+  article {
+    padding: 2.374em 1.5em 2.5em 1.5em;
+  }
+
+  article:hover {
+    padding: 2.187em 1.5em 2.5em 1.5em;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+
+  .postImg {
+    display: none;
+  }
+
+  article p, article a h2 {
+    width: 100%;
+  }
+  
+
+  .adv-jumbo{
+    min-height: 350px;
+  }
+
+  .advJumboContent{
+    margin-top:40px;
+  }
+
+  .advJumboContent h3{
+    margin-top:40px;
+    font-weight: 100;
+  }
+
+}
